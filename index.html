@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="e">
 
 <head>
   <title>Brandon Portfolio</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css" />
 </head>
 
 <body>
@@ -16,10 +16,10 @@
         <h1>Brandon L. Baird, M.Ed., AG&reg;</h1>
         <!-- Nav Menu -->
         <nav>
-            <a href="#About Me">About Me</a>
-            <a href="Projects">Projects</a>
-            <a href="Contact Information">Contact</a>
-            <a href="./assets/files/Resume.pdf">Resume</a> 
+            <a class="nav-menu" href="#About Me">About Me</a>
+            <a class="nav-menu" href="Projects">Projects</a>
+            <a class="nav-menu" href="Contact Information">Contact</a>
+            <a class="nav-menu" href="assets/files/Resume.pdf">Resume</a> 
         </nav>
     </header>
         
@@ -27,24 +27,53 @@
     <main>
 
         <!-- Background Image -->
-
+        <section class="background">
+            <img class="background-img" src="assets/images/hd-wallpaper-gb3a8c5b57_1920.jpg" alt="Starry night sky." />
+            <h2 class="subtitle">The Coding Genealogist</h2>
+        </section>        
+        
         <!-- Subsection 1: This is the About me section -->
-
+        <section class="about-me">
+            <h2 class="subsection">About Me</h2>
+            <p>Brandon L. Baird, M.Ed., AG&reg;, attended and graduated from BYU with a BA in Family History and Genealogy. He started working at the Family History Library in the summer of 2013 as a part-time Latin America Research Specialist. In March of 2014, he was hired full time and has continued as a Latin America Research Specialist. As a Latin America Research Specialist, he assists individuals in researching their Spanish, Italian, Portuguese, and French ancestors. He has become an Accredited Genealogist through ICAPGen&#8480; in the Spain, France, Mexico, Portugal, Italy, Peru, Chile, Colombia-Panama, Argentina-Uruguay, and Venezuela regions. In 2017, he graduated from the University of Utah with a Master of Education in Instructional Design and Educational Technology. He teaches at conferences both nationally and internationally on a variety of genealogical topics, as well as at the Family History Library.</p>
+        </section>
         <!-- Subsection 2: the Projects: I want to have this be a type of slideshow. More interactivity will be added as time progresses -->
-
+        <section class="projects">
+            <h2 class="subsection">Projects</h2>
+            <div class="card">
+                <img src="assets/images/coding-g94e748ce0_1920.jpg" alt="Laptop with coding on screen." class="large-img">
+                <h3>Project 1</h3>
+                <p class="card-text">Brief description of project. </p>
+            </div>
+            <div class="card-sml">
+                <img src="assets/images/code-ga21c17a35_1920.jpg" alt="Lines of code" class="sml-img">
+                <h3>Project 2</h3>
+                <p class="card-text">Brief description</p>
+            </div>
+            <div class="card-sml">
+                <img src="assets/images/circuit-board-g55c7953b5_1920.jpg" alt="Dots with connecting lines to make a circuit." class="sml-img">
+                <h3>Project 3</h3>
+                <p class="card-text">Brief description</p>
+            </div>
+            <div class="card-sml">
+                <img src="assets/images/fiber-g6f233f7c9_1920.jpg" alt="Fiber optic cables with red lights" class="sml-img">
+                <h3>Project 4</h3>
+                <p class="card-text">Brief description</p>
+            </div>
+        </section>
         <!-- Subsection 3: Contact Information -->
-        <section>
-            <h2>Contact Information</h2>
-            <a href="tel:928-386-8864">+1 (928)-386-8864</a>
-            <a href="mailto:bbairdgen@gmail.com">bbairdgen@gmail.com</a>
-            <a href="https://github.com/bbairdgen">GitHub</a>
+        <section class="contact-info">
+            <h2 class="subtitle">Contact Information</h2>
+            <a class="contact" href="tel:928-386-8864">+1(928)-386-8864</a>
+            <a class="contact" href="mailto:bbairdgen@gmail.com">bbairdgen@gmail.com</a>
+            <a class="contact" href="https://github.com/bbairdgen">GitHub</a>
         </section>
     
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>Thank you for visiting! Copyright &copy; 2022 All Rights Reserved. </p>
+        <p>Thank you for visiting! Copyright &copy;2022 All Rights Reserved. </p>
     </footer>
 </body>
 </html>
