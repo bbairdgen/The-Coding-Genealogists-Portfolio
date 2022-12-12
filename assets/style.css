@@ -6,15 +6,54 @@
     --white: #fff; 
 }
 
-header {
+* {
     background-color: #182747;
     color: var(--gray);
+    font: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h1 {
+    font-size: 250%;
+    letter-spacing: 0.05em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    min-width: 300px;
+    list-style-type: none;
+    letter-spacing: 0.05em;
 }
 
 .nav-menu {
-    color: green;
+    color: var(--gray);
+    font-weight: 900;
+    font-size: 125%;
+    text-decoration: none;
 }
 
-p {
+/* p {
     color: green;
+} */
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 576px) {
+
 }
