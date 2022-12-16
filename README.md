@@ -1,4 +1,4 @@
-# The-Coding-Genealogist's-Portfolio
+# The-Coding-Genealogists-Portfolio
 
 ## Description
 
@@ -16,6 +16,8 @@ N/A
 Here is a screenshot of the final project (15 Dec 2022): 
 
 ![screenshot of portfolio page](assets/images/Screen%20Shot%202022-12-15%20at%209.43.30%20PM.png)
+
+Here is the link to the site: [The Coding Genealogist's Portfolio](https://bbairdgen.github.io/The-Coding-Genealogists-Portfolio/)
 
 ## Credits
 
